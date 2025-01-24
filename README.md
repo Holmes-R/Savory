@@ -1,6 +1,6 @@
 # Getting Started with Savory food
 
-Visit: https://savoryfoodcart.netlify.app/
+Visit: https://savoryapp.netlify.app/
 
 ## Available Scripts
 
