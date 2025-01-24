@@ -5,7 +5,6 @@ import { Home } from './Home'
 import { Cart } from './Cart'
 import { About } from './About'
 import { Contact } from './Contact'
-import { Review } from './Review'
 export const Content = ({cartItem,setCartItem}) => {
   return (
     <div className='main-content'>
@@ -14,7 +13,7 @@ export const Content = ({cartItem,setCartItem}) => {
             <Route path='/Cart' element={<Cart cartItem={cartItem} setCartItem={setCartItem}/>}/>
             <Route path='/About' element={<About/>}/>
             <Route path='/Contact' element={<Contact/>}/>
-            <Route path='/Review' element={<Review/>}/>
+           
         </Routes>
     </div>
   )

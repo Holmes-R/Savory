@@ -8,7 +8,7 @@ export const Nav = ({cartItem,setCartItem}) => {
         <Link to='/Cart' style={{textDecoration:'none'}}><h3>Cart <span>{cartItem.length}</span></h3></Link>
         <Link to='/About' style={{textDecoration:'none'}}><h3>About</h3></Link>
         <Link to='/Contact' style={{textDecoration:'none'}}><h3>Contact</h3></Link>
-        <Link to='/Review' style={{textDecoration:'none'}}><h3>Review</h3></Link>
+       
     </nav>
   )
 }
